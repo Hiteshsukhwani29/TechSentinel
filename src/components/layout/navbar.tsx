@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ShieldHalf, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -30,9 +31,13 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
+          <div className="ml-4">
+            <ThemeToggle />
+          </div>
         </nav>
 
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center space-x-2">
+          <ThemeToggle />
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
