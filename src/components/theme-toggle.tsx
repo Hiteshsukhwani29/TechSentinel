@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { cn } from "@/lib/utils"
 
 export function ThemeToggle() {
-  const [isDark, setIsDark] = useState(false)
+  const [isDark, setIsDark] = useState(true)
 
   useEffect(() => {
     // Check if user has a theme preference in localStorage
