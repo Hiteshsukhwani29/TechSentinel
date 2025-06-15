@@ -42,11 +42,11 @@ export function HeroSection() {
           </div>
           <div className="text-center md:text-left animate-slideUp">
             <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              <span className="text-white">Join us in learning</span>
+              <span className="text-foreground">Join us in learning</span>
               <br />
               <span className="text-gradient-blue-purple">{changingText}</span>
               <br />
-              <span className="text-white">with TechSentinals</span>
+              <span className="text-foreground">with TechSentinals</span>
             </h1>
             <p className="text-lg md:text-xl text-foreground/80 mb-8">
               Your gateway to innovation, collaboration, and the future of technology. Join our community of passionate learners and builders.

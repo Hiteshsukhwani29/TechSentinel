@@ -43,10 +43,10 @@ export function EventsSection() {
     <section id="events" className="py-16 md:py-24 bg-kubePurple/20">
       <div className="container mx-auto max-w-screen-xl px-4">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4 text-white">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4 text-foreground">
             Our Events & Meetups
           </h2>
-          <p className="text-lg text-white/80 max-w-3xl mx-auto">
+          <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
             At sessions that span from the technical to the visionary, let's celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.
           </p>
         </div>
@@ -55,15 +55,15 @@ export function EventsSection() {
             <Card key={event.title} className="flex flex-col shadow-lg hover:shadow-xl transition-shadow duration-300 bg-background/50 backdrop-blur-sm border-border/40">
               <CardHeader>
                 <div className="flex justify-between items-start">
-                  <CardTitle className="font-headline text-2xl mb-1 text-white">{event.title}</CardTitle>
+                  <CardTitle className="font-headline text-2xl mb-1 text-foreground">{event.title}</CardTitle>
                   <Badge className="ml-2 whitespace-nowrap bg-kubePurple hover:bg-kubePurple transition-all duration-300 text-white">{event.type}</Badge>
                 </div>
-                <CardDescription className="text-sm text-white/70 line-clamp-3 h-[3.75rem] overflow-hidden">
+                <CardDescription className="text-sm text-foreground/70 line-clamp-3 h-[3.75rem] overflow-hidden">
                   {event.description}
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex-grow">
-                <div className="space-y-2 text-sm text-white/80">
+                <div className="space-y-2 text-sm text-foreground/80">
                   <div className="flex items-center">
                     <CalendarDays className="h-4 w-4 mr-2 text-kubePurple" />
                     <span>{event.date}</span>

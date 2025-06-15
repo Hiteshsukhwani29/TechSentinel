@@ -32,13 +32,13 @@ export function SponsorsSection() {
     <section id="sponsors" className="py-16 md:py-24 bg-kubePurple/20">
       <div className="container mx-auto max-w-screen-xl px-4">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4 text-white">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4 text-foreground">
             Our Partners
           </h2>
-          <p className="text-lg text-white/80 max-w-3xl mx-auto">
+          <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
             A very big thank you to all our partners for their continued partnership.
           </p>
-          <p className="text-lg text-white/80 max-w-3xl mx-auto mt-4">
+          <p className="text-lg text-foreground/80 max-w-3xl mx-auto mt-4">
             If you're interested in being showcased throughout TechSentinals, contact{' '}
             <a 
               href="mailto:tech.sentinals@gmail.com" 
@@ -63,8 +63,8 @@ export function SponsorsSection() {
                     />
                   </div>
                   <div>
-                    <h3 className="font-headline text-xl font-semibold text-white">{sponsor.name}</h3>
-                    <div className="flex items-center gap-2 text-sm text-white/70">
+                    <h3 className="font-headline text-xl font-semibold text-foreground">{sponsor.name}</h3>
+                    <div className="flex items-center gap-2 text-sm text-foreground/70">
                       {sponsor.category === 'Venue Partner' ? (
                         <MapPin className="h-4 w-4 text-kubePurple" />
                       ) : (
@@ -74,7 +74,7 @@ export function SponsorsSection() {
                     </div>
                   </div>
                 </div>
-                <p className="text-white/80">{sponsor.description}</p>
+                <p className="text-foreground/80">{sponsor.description}</p>
               </CardContent>
             </Card>
           ))}

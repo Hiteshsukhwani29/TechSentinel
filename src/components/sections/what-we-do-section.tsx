@@ -40,7 +40,7 @@ export function WhatWeDoSection() {
     <section id="what-we-do" className="py-32 bg-background/50">
       <div className="container mx-auto max-w-screen-xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
             What We Do
           </h2>
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
@@ -59,7 +59,7 @@ export function WhatWeDoSection() {
                 <div className="p-3 rounded-lg bg-kubePurple/10 group-hover:bg-kubePurple/20 transition-colors">
                   <tech.icon className="w-6 h-6 text-kubePurple" />
                 </div>
-                <h3 className="text-xl font-semibold text-white">{tech.name}</h3>
+                <h3 className="text-xl font-semibold text-foreground">{tech.name}</h3>
               </div>
               <p className="text-foreground/70 group-hover:text-foreground/90 transition-colors">
                 {tech.description}

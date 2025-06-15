@@ -39,13 +39,13 @@ export function TeamSection() {
     <section id="team" className="py-16 md:py-24 bg-kubePurple/20">
       <div className="container mx-auto max-w-screen-xl px-4">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4 text-white">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4 text-foreground">
             Our lineup of big thinkers and even bigger doers
           </h2>
-          <p className="text-lg text-white/80 max-w-3xl mx-auto mb-6">
+          <p className="text-lg text-foreground/80 max-w-3xl mx-auto mb-6">
             At TechSentinals, we believe in the power of community and shared learning. We're not just a group of tech enthusiasts; we're a family of learners, teachers, and innovators who help each other grow. Every member brings unique perspectives and experiences that enrich our community.
           </p>
-          <p className="text-lg text-white/80 max-w-3xl mx-auto">
+          <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
             Join our team to start your journey of helping and growing together with the community. Together, we can make a difference in the tech world. And Our Core Team is:
           </p>
         </div>
@@ -61,14 +61,14 @@ export function TeamSection() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="font-headline text-xl font-semibold text-white mb-1">{member.name}</h3>
-                <p className="text-white/70 mb-4">{member.role}</p>
+                <h3 className="font-headline text-xl font-semibold text-foreground mb-1">{member.name}</h3>
+                <p className="text-foreground/70 mb-4">{member.role}</p>
                 <div className="flex gap-4">
                   <a
                     href={member.linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white/70 hover:text-kubePurple transition-colors"
+                    className="text-foreground/70 hover:text-kubePurple transition-colors"
                   >
                     <Linkedin className="h-5 w-5" />
                   </a>
@@ -76,7 +76,7 @@ export function TeamSection() {
                     href={member.twitterUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white/70 hover:text-kubePurple transition-colors"
+                    className="text-foreground/70 hover:text-kubePurple transition-colors"
                   >
                     <Twitter className="h-5 w-5" />
                   </a>
