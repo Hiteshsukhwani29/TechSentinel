@@ -38,6 +38,7 @@ export function Footer() {
         <p className="text-sm text-muted-foreground">
           © {year !== null ? year : "..."} Tech Sentinel Hub. All rights reserved.
         </p>
+           <p className="text-sm text-muted-foreground"><a href="https://docs.google.com/document/d/1FQzjSDW4QWsvgLUC-jjBMv5WBd5S3czzZG_9w1E1xVU/edit?usp=sharing">Code of Conduct & Privacy Policy </a></p>
         <p className="text-xs text-muted-foreground/70 mt-1">
           Innovate. Collaborate. Inspire.
         </p>
