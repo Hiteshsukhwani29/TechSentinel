@@ -12,7 +12,8 @@ export function AboutUsSection() {
           </h2>
           <div className="space-y-8">
             <p className="text-lg text-white/80 leading-relaxed">
-              Tech Sentinel Hub is inspired by the global tech community. We started our journey in 2024. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around the tech community. The technology awareness is main goal for first few years of the group.
+              
+            TechSentinels is an inclusive, student-powered and professionally guided tech community that brings together curious learners, aspiring developers, and working professionals under one unified platform. We organize meetups, workshops, and events focused on hands-on learning across a wide spectrum of technologies — from Multi-Cloud (AWS, Azure, GCP), DevOps, and Cloud Security to AI, Machine Learning, Generative AI, LLMs, RAG, Web & App Development, and Data Analytics. Our goal is to simplify the ever-evolving tech landscape and make it accessible to everyone — whether you’re in college, recently graduated, or already working in the industry. At TechSentinels, we believe in learning together, sharing openly, and building a strong ecosystem of future-ready tech leaders.
             </p>
             <Link 
               href="#what-we-do" 
